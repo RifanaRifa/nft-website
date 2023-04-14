@@ -1,0 +1,27 @@
+.newletter_input {
+    /* line-height: 55px; */
+    /* font-size: 2.5rem; */
+    margin-top: 150px;
+    /* margin: 50px 0px; */
+}
+
+
+
+.newletter_input h5 {
+    margin-top: 20px;
+    font-size: 3rem;
+    line-height: 70px;
+    color: #fff;
+}
+
+.want_text {
+    /* padding: 10px 150px; */
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+.newletter_input p {
+    margin-top: 20px;
+}
