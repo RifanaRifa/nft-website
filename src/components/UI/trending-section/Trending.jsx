@@ -10,7 +10,7 @@ const Trending = () => {
             <Container>
                 <Row>
                     <Col lg="12">
-                        <h3 className='trending_title'>Trending </h3>
+                        <h3 className='trending_title mb-5'>Trending </h3>
                     </Col>
 
                     {

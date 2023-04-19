@@ -3,8 +3,9 @@
 }
 
 .hero_content h2 {
-    line-height: 55px;
-    font-size: 2.5rem;
+    line-height: 80px;
+    font-size: 4rem;
+    margin-top: 90px;
 }
 
 .hero_content h2 span {
@@ -27,8 +28,8 @@
 .create_btn {
     border: none;
     outline: none;
-    border-radius: 50px;
-    padding: 7px 25px !important;
+    border-radius: 25px;
+    padding: 9px 25px !important;
     border: 1px solid #5142fc;
     font-size: .9rem;
     background: transparent;

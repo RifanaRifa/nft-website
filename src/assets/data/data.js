@@ -1,11 +1,17 @@
 
 import auction01 from "../images/item-1.jpg"
-
 import auction02 from "../images/item-2.jpg"
-
 import auction03 from "../images/item-3.jpg"
-
 import auction04 from "../images/item-4.jpg"
+import auction05 from "../images/item-5.jpg"
+import auction06 from "../images/item-6.jpg"
+import auction07 from "../images/item-7.jpg"
+import auction08 from "../images/item-8.jpg"
+import auction09 from "../images/item-9.jpg"
+import auction10 from "../images/item-10.jpg"
+import auction11 from "../images/item-11.jpg"
+import auction12 from "../images/item-12.jpg"
+
 
 
 
@@ -29,6 +35,11 @@ import ava03 from "../images/author-3.jpg";
 import ava04 from "../images/author-4.jpg";
 import ava05 from "../images/author-5.jpg";
 import ava06 from "../images/author-6.jpg";
+import ava07 from "../images/author-7.jpg";
+import ava08 from "../images/author-8.jpg";
+import ava09 from "../images/author-9.jpg";
+import ava10 from "../images/author-10.jpg";
+
 
 
 export const FRAME_DATA = [
@@ -51,7 +62,7 @@ export const FRAME_DATA = [
     imgUrl: auction02,
     creator: "Trista Francis",
     creatorImg: ava02,
-    currentBid: 5.89,
+    currentBid: 5.09,
 
   },
 
@@ -62,7 +73,7 @@ export const FRAME_DATA = [
     imgUrl: auction03,
     creator: "Maria",
     creatorImg: ava03,
-    currentBid: 5.89,
+    currentBid: 6.99,
 
   },
 
@@ -73,7 +84,95 @@ export const FRAME_DATA = [
     imgUrl: auction04,
     creator: "Mason",
     creatorImg: ava04,
+    currentBid: 6.76,
+  },
+
+  {
+    id: "05",
+    title: "Tranqulity Art",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction05,
+    creator: "Mason",
+    creatorImg: ava04,
     currentBid: 5.89,
+    category: "photo",
+
+  },
+
+  {
+    id: "06",
+    title: "Walking On Motion",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction06,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 9.45,
+    category: "Art",
+  },
+
+  {
+    id: "07",
+    title: "Dodo Hide & Seek",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction07,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 3.45,
+    category: "photo",
+  },
+  {
+    id: "08",
+    title: "To Infinity",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction08,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 5.89,
+    category: "Collectibles",
+  },
+
+  {
+    id: "09",
+    title: "Walking On Air",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction09,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 9.45,
+    category: "Card",
+
+  },
+
+  {
+    id: "10",
+    title: "Synthwave Painting",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction10,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 3.45,
+    category: "Art",
+  },
+
+  {
+    id: "11",
+    title: "Flame Dress Bylamin",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction11,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 5.89,
+    category: "Card",
+  },
+  {
+    id: "12",
+    title: "Hamlet Contemplates",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction12,
+    creator: "Mason",
+    creatorImg: ava04,
+    currentBid: 5.89,
+    category: "Collectibles",
   },
 
 ];
@@ -148,7 +247,7 @@ export const NFT__DATA = [
     imgUrl: img07,
     creator: "Maria",
     creatorImg: ava03,
-    currentBid: 5.89,
+    currentBid: 5.34,
   },
 
   {
@@ -158,7 +257,7 @@ export const NFT__DATA = [
     imgUrl: img08,
     creator: "Mason",
     creatorImg: ava04,
-    currentBid: 5.89,
+    currentBid: 6.48,
   },
 
   {
@@ -168,8 +267,11 @@ export const NFT__DATA = [
     imgUrl: img09,
     creator: "Elice Brown",
     creatorImg: ava05,
-    currentBid: 5.89,
+    currentBid: 5.67,
   },
+
+
+
 ];
 
 export const SELLER__DATA = [
@@ -178,7 +280,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava01,
-    currentBid: 5.89,
+    currentBid: 120,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -189,7 +291,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Trista Francis",
     sellerImg: ava02,
-    currentBid: 6.45,
+    currentBid: 220,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -200,7 +302,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Maria",
     sellerImg: ava03,
-    currentBid: 7.45,
+    currentBid: 234,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -213,7 +315,7 @@ export const SELLER__DATA = [
 
     sellerName: "Mason",
     sellerImg: ava04,
-    currentBid: 7.65,
+    currentBid: 237,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -226,7 +328,7 @@ export const SELLER__DATA = [
 
     sellerName: "Elice Brown",
     sellerImg: ava05,
-    currentBid: 8.35,
+    currentBid: 176,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -239,7 +341,53 @@ export const SELLER__DATA = [
 
     sellerName: "Julia",
     sellerImg: ava06,
-    currentBid: 6.45,
+    currentBid: 165,
+    fbUrl: "#",
+    instaUrl: "#",
+    twitUrl: "#",
+  },
+
+  {
+    id: "07",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
+    sellerName: "Bart",
+    sellerImg: ava07,
+    currentBid: 231,
+    fbUrl: "#",
+    instaUrl: "#",
+    twitUrl: "#",
+  },
+
+  {
+    id: "08",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
+    sellerName: "Benny",
+    sellerImg: ava08,
+    currentBid: 110,
+    fbUrl: "#",
+    instaUrl: "#",
+    twitUrl: "#",
+  },
+
+  {
+    id: "09",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
+    sellerName: "Richy",
+    sellerImg: ava09,
+    currentBid: 145,
+    fbUrl: "#",
+    instaUrl: "#",
+    twitUrl: "#",
+  },
+
+  {
+    id: "10",
+
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
+
+    sellerName: "Zinder Saw",
+    sellerImg: ava10,
+    currentBid: 218,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -247,10 +395,12 @@ export const SELLER__DATA = [
 
   {
     id: "01",
+
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
+
     sellerName: "Ryan Carder",
     sellerImg: ava01,
-    currentBid: 5.89,
+    currentBid: 120,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -258,60 +408,12 @@ export const SELLER__DATA = [
 
   {
     id: "02",
+
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
+
     sellerName: "Trista Francis",
     sellerImg: ava02,
-    currentBid: 6.45,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "03",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Maria",
-    sellerImg: ava03,
-    currentBid: 7.45,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "04",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Mason",
-    sellerImg: ava04,
-    currentBid: 7.65,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "05",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Elice Brown",
-    sellerImg: ava05,
-    currentBid: 8.35,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "06",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Julia",
-    sellerImg: ava06,
-    currentBid: 6.45,
+    currentBid: 220,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",

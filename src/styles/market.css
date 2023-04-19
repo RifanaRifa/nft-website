@@ -11,6 +11,21 @@
     border-radius: 5px;
 }
 
+.explore_head {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.actives {
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #343444;
+    font-size: 0.9rem;
+
+}
+
 @media only screen and (max-width:768px) {
 
     .all_category-filter select,
@@ -21,6 +36,8 @@
 
 
     }
+
+
 
 
 

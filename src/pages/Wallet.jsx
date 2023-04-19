@@ -2,27 +2,31 @@ import React from 'react'
 import { Container, Row, Col } from "reactstrap";
 import CommonSection from '../components/UI/common-section/CommonSection';
 import "../styles/wallet.css";
+import mask from "../assets/images/auction_4.jpg";
+import auther from "../assets/images/download (1).png";
+import wallet from "../assets/images/download (2).png";
+import dapper from "../assets/images/download (3).png";
 
 const wallet__data = [
     {
         title: "Bitcoin",
         desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit.  beatae soluta ipsum incidunt.  repudiandae tempore rerum iusto voluptatem repudiandae",
-        icon: "ri-bit-coin-line",
+        imgUrl: mask,
     },
     {
         title: "Coinbase",
         desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit.  beatae soluta ipsum incidunt.  repudiandae tempore rerum iusto voluptatem repudiandae",
-        icon: "ri-coin-line",
+        imgUrl: auther,
     },
     {
         title: "Metamask",
         desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit.  beatae soluta ipsum incidunt.  repudiandae tempore rerum iusto voluptatem repudiandae",
-        icon: "ri-money-cny-circle-line",
+        imgUrl: wallet,
     },
     {
         title: "Authereum",
-        desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. beatae soluta ipsum incidunt.  repudiandae tempore rerum iusto voluptatem repudiandae",
-        icon: "ri-bit-coin-line",
+        desc: " Purus irure lacinia eiusmod inventore bibendum habitant potenti non sint rem! Felis, asper",
+        imgUrl: dapper,
     },
 ]
 
@@ -45,7 +49,7 @@ const Wallet = () => {
                             wallet__data.map((item, index) => (
                                 <Col lg="3" md="4" sm="6" key={index} className='mb-4'>
                                     <div className='wallet_item'>
-                                        <span><i class={item.icon}></i></span>
+                                        {item.imgUrl}
                                         <h5>{item.title}</h5>
                                         <p>{item.desc} </p>
                                     </div>

@@ -6,25 +6,25 @@ import "./step-section.css";
 const STEP_DATA = [
     {
         title: "Stetup your wallet",
-        desc: " Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the NFT Marketplace in the top right corner. Learn about the wallets we support.",
+        desc: " Wallet that is functional for NFT purchasing. You may have a Coinbase account at this point, but very few are actually set up to buy an NFT.",
         icon: "ri-wallet-line"
     },
 
     {
         title: "Create your collection",
-        desc: " Click Create and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee..",
+        desc: "Setting up your NFT collection and creating NFTs on NFTs is easy! This guide explains how to set up your first collection",
         icon: "ri-layout-masonry-line"
     },
 
     {
         title: "Add your NFTs",
-        desc: " Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats, and unlockable conten.",
+        desc: " Sed ut perspiciatis un de omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem..",
         icon: "ri-image-line"
     },
 
     {
         title: "List them for sale",
-        desc: " Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs!.",
+        desc: " Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs!!.",
         icon: "ri-list-check"
     },
 
