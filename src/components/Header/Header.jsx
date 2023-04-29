@@ -61,7 +61,7 @@ const Header = () => {
             <Container>
                 <div className='navigation' >
                     <div className='logo'>
-                        <h2 className='d-flex gap-2 align-items-center'> <span><i class="ri-fire-fill"></i></span>EnftyMart </h2>
+                        <h2 className='d-flex gap-2 align-items-center'> <span><i class="ri-fire-fill"></i></span>NEFTRON</h2>
                     </div>
 
 

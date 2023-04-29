@@ -2,36 +2,36 @@ import React, { useState } from 'react'
 import CommonSection from '../components/UI/common-section/CommonSection'
 import { Container, Row, Col } from 'reactstrap';
 import NftCard from "../components/UI/NFT-Card/NftCard";
-import { FRAME_DATA } from "../assets/data/data";
+import { NFT__DATA } from "../assets/data/data";
 import "../styles/market.css";
 
 
 const Market = () => {
-    const [artWork, setArtWork] = useState(FRAME_DATA);
+    const [artWork, setArtWork] = useState(NFT__DATA);
 
 
     const allClick = () => {
-        const Condition = FRAME_DATA.map((item) => item)
+        const Condition = NFT__DATA.map((item) => item)
         setArtWork(Condition);
     }
 
     const artClick = () => {
-        const Condition = FRAME_DATA.filter((item) => item.category === "Art");
+        const Condition = NFT__DATA.filter((item) => item.category === "Art");
         setArtWork(Condition);
     }
 
     const cardClick = () => {
-        const Condition = FRAME_DATA.filter((item) => item.category === "Card");
+        const Condition = NFT__DATA.filter((item) => item.category === "Card");
         setArtWork(Condition);
     }
 
     const collectionClick = () => {
-        const Condition = FRAME_DATA.filter((item) => item.category === "Collectibles");
+        const Condition = NFT__DATA.filter((item) => item.category === "Collectibles");
         setArtWork(Condition);
     }
 
     const photoClick = () => {
-        const Condition = FRAME_DATA.filter((item) => item.category === "photo");
+        const Condition = NFT__DATA.filter((item) => item.category === "photo");
         setArtWork(Condition);
     }
 

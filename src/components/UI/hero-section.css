@@ -15,7 +15,6 @@
     -webkit-text-stroke: 3px transparent;
     -webkit-text-fill-color: #14141f;
     margin-left: 7px !important;
-    /* sell extre antha tet ah madum left side thalla intha code starting la vara*/
     display: inline-block;
 }
 
@@ -48,7 +47,7 @@
 }
 
 .hero_img {
-    width: 550px;
+    width: 630px;
     margin-left: auto;
 }
 

@@ -25,7 +25,7 @@ import img05 from "../images/img-05.jpg";
 import img06 from "../images/img-06.jpg";
 import img07 from "../images/img-07.jpg";
 import img08 from "../images/img-08.jpg";
-import img09 from "../images/img-09.jpg";
+// import img09 from "../images/img-09.jpg";
 
 
 
@@ -42,7 +42,14 @@ import ava10 from "../images/author-10.jpg";
 
 
 
-export const FRAME_DATA = [
+
+
+
+
+
+
+export const NFT__DATA = [
+
 
   {
     id: "01",
@@ -89,99 +96,6 @@ export const FRAME_DATA = [
 
   {
     id: "05",
-    title: "Tranqulity Art",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction05,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 5.89,
-    category: "photo",
-
-  },
-
-  {
-    id: "06",
-    title: "Walking On Motion",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction06,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 9.45,
-    category: "Art",
-  },
-
-  {
-    id: "07",
-    title: "Dodo Hide & Seek",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction07,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 3.45,
-    category: "photo",
-  },
-  {
-    id: "08",
-    title: "To Infinity",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction08,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 5.89,
-    category: "Collectibles",
-  },
-
-  {
-    id: "09",
-    title: "Walking On Air",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction09,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 9.45,
-    category: "Card",
-
-  },
-
-  {
-    id: "10",
-    title: "Synthwave Painting",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction10,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 3.45,
-    category: "Art",
-  },
-
-  {
-    id: "11",
-    title: "Flame Dress Bylamin",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction11,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 5.89,
-    category: "Card",
-  },
-  {
-    id: "12",
-    title: "Hamlet Contemplates",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: auction12,
-    creator: "Mason",
-    creatorImg: ava04,
-    currentBid: 5.89,
-    category: "Collectibles",
-  },
-
-];
-
-
-
-export const NFT__DATA = [
-  {
-    id: "01",
     title: "Travel Monkey Club",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img01,
@@ -191,7 +105,7 @@ export const NFT__DATA = [
   },
 
   {
-    id: "02",
+    id: "06",
     title: "Sir Lion Swag",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img02,
@@ -201,7 +115,7 @@ export const NFT__DATA = [
   },
 
   {
-    id: "03",
+    id: "07",
     title: "Guard",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img03,
@@ -211,7 +125,7 @@ export const NFT__DATA = [
   },
 
   {
-    id: "04",
+    id: "08",
     title: "Guard",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img04,
@@ -221,7 +135,7 @@ export const NFT__DATA = [
   },
 
   {
-    id: "05",
+    id: "09",
     title: "Crypto Egg Stamp",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img05,
@@ -231,7 +145,7 @@ export const NFT__DATA = [
   },
 
   {
-    id: "06",
+    id: "10",
     title: "Cyber Doberman",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img06,
@@ -241,34 +155,114 @@ export const NFT__DATA = [
   },
 
   {
-    id: "07",
+    id: "11",
     title: "Cool Man",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img07,
-    creator: "Maria",
-    creatorImg: ava03,
+    creator: "Bart",
+    creatorImg: ava07,
     currentBid: 5.34,
   },
 
   {
-    id: "08",
+    id: "12",
     title: "Lion Swag",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img08,
-    creator: "Mason",
-    creatorImg: ava04,
+    creator: "Benny",
+    creatorImg: ava08,
     currentBid: 6.48,
   },
 
+
   {
-    id: "09",
-    title: "Travel Monkey Club",
+    id: "13",
+    title: "Tranqulity Art",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-    imgUrl: img09,
-    creator: "Elice Brown",
-    creatorImg: ava05,
-    currentBid: 5.67,
+    imgUrl: auction05,
+    creator: "Richy",
+    creatorImg: ava10,
+    currentBid: 5.89,
+    category: "photo",
+
   },
+
+  {
+    id: "14",
+    title: "Walking On Motion",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction06,
+    creator: "Zinder Saw",
+    creatorImg: ava01,
+    currentBid: 9.45,
+    category: "Art",
+  },
+
+  {
+    id: "15",
+    title: "Dodo Hide & Seek",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction07,
+    creator: "Ryan Carder",
+    creatorImg: ava02,
+    currentBid: 3.45,
+    category: "photo",
+  },
+  {
+    id: "16",
+    title: "To Infinity",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction08,
+    creator: "Trista Francis",
+    creatorImg: ava03,
+    currentBid: 5.89,
+    category: "Collectibles",
+  },
+
+  {
+    id: "17",
+    title: "Walking On Air",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction09,
+    creator: "Maria",
+    creatorImg: ava04,
+    currentBid: 9.45,
+    category: "Card",
+
+  },
+
+  {
+    id: "18",
+    title: "Synthwave Painting",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction10,
+    creator: "Mason",
+    creatorImg: ava05,
+    currentBid: 3.45,
+    category: "Art",
+  },
+
+  {
+    id: "19",
+    title: "Flame Dress Bylamin",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction11,
+    creator: "Elice Brown",
+    creatorImg: ava06,
+    currentBid: 5.89,
+    category: "Card",
+  },
+  {
+    id: "20",
+    title: "Hamlet Contemplates",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    imgUrl: auction12,
+    creator: "Julia",
+    creatorImg: ava07,
+    currentBid: 5.89,
+    category: "Collectibles",
+  },
+
 
 
 

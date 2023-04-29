@@ -20,7 +20,8 @@ const WantToSell = () => {
                             <h5 className='want_head'>Want To Sell Your NFT?</h5>
                             <p>The other hand, we denounce with righteous indignation and dislike men who are begui
                                 and demoralized by the charms of pleasure of the moment, so blinded by desire that.</p>
-                            <input className='want_text' type="email" placeholder='Enter your email' />
+                            {/* <input className='Want_text' type="email" placeholder='Enter your email' /> */}
+                            <input type="text" className='news-letter' placeholder='Enter Your Email' />
                         </div>
                     </Col>
                 </Row>

@@ -61,6 +61,10 @@
     font-size: 1.2rem;
     font-weight: 400;
     transition: 0.3s;
+    padding: 6px;
+
+    text-align: center;
+    background-color: #343444;
     /* hover pannurapa clr methuva maarum*/
 
 }

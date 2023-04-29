@@ -10,11 +10,11 @@ const Trending = () => {
             <Container>
                 <Row>
                     <Col lg="12">
-                        <h3 className='trending_title mb-5'>Trending </h3>
+                        <h3 className='trending_title mb-5'>Trending Collection </h3>
                     </Col>
 
                     {
-                        NFT__DATA.slice(0, 8).map((item) => (
+                        NFT__DATA.slice(4, 12).map((item) => (
                             <Col lg="3" md="4" sm="6" key={item.id} className="mb-4">
                                 <NftCard item={item} />
                             </Col>

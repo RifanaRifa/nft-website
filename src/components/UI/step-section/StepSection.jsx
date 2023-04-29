@@ -6,7 +6,7 @@ import "./step-section.css";
 const STEP_DATA = [
     {
         title: "Stetup your wallet",
-        desc: " Wallet that is functional for NFT purchasing. You may have a Coinbase account at this point, but very few are actually set up to buy an NFT.",
+        desc: " Wallet that is functional for NFT purchasing. You may Coinbase account at this point, but very few are actually set up to buy an NFT.",
         icon: "ri-wallet-line"
     },
 
