@@ -7,7 +7,7 @@ import auther from "../assets/images/wallet-2.png"
 import wallet from "../assets/images/wallet-1.png";
 import dapper from "../assets/images/wallet-3.png";
 
-const wallet__data = [
+const wallet_data = [
     {
         title: "Bitski",
         desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit.  beatae soluta ipsum incidunt.  repudiandae tempore rerum iusto voluptatem repudiandae",
@@ -28,7 +28,7 @@ const wallet__data = [
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  beatae soluta ipsum incidunt.  repudiandae tempore rerum iusto voluptatem repudiandae",
         imgUrl: dapper,
     },
-]
+];
 
 const Wallet = () => {
     return (
@@ -46,7 +46,7 @@ const Wallet = () => {
                         </Col>
 
                         {
-                            wallet__data.map((item, index) => (
+                            wallet_data.map((item, index) => (
                                 <Col lg="3" md="4" sm="6" key={index} className='mb-4'>
                                     <div className='wallet_item'>
                                         <img src={item.imgUrl} />
@@ -55,18 +55,12 @@ const Wallet = () => {
                                     </div>
                                 </Col>
                             ))
-
-
                         }
-
-
-
-
                     </Row>
                 </Container>
             </section>
         </>
     )
-}
+};
 
-export default Wallet
+export default Wallet;

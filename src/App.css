@@ -27,12 +27,6 @@ p {
   line-height: 35px;
 }
 
-a {
-  /* text-decoration: none; */
-  /* //underline poha */
-  /* color: unset; */
-}
-
 a:hover {
   color: unset;
 }
@@ -49,7 +43,7 @@ footer {
 
 }
 
-/* ========= custom scroll-bar =====*/
+
 ::-webkit-scrollbar {
   width: 10px;
   background: #343444;

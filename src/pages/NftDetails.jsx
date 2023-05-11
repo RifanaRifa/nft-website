@@ -2,7 +2,7 @@ import React from 'react'
 import CommonSection from '../components/UI/common-section/CommonSection'
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
-import { NFT__DATA } from '../assets/data/data';
+import { NFT_DATA } from '../assets/data/data';
 
 import LiveAuction from '../components/UI/live-auction/LiveAuction';
 import "../styles/nft-details.css";
@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const NftDetails = () => {
 
     const { id } = useParams()
-    const singleNft = NFT__DATA.find(item => item.id === id)
+    const singleNft = NFT_DATA.find(item => item.id === id)
 
 
     return (
@@ -71,6 +71,6 @@ const NftDetails = () => {
             <LiveAuction />
         </>
     )
-}
+};
 
-export default NftDetails
+export default NftDetails;

@@ -27,6 +27,6 @@ const Routers = () => {
 
         </Routes>
     )
-}
+};
 
-export default Routers
+export default Routers;

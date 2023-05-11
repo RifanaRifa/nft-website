@@ -13,10 +13,6 @@ import auction11 from "../images/item-11.jpg"
 import auction12 from "../images/item-12.jpg"
 
 
-
-
-
-
 import img01 from "../images/img-01.jpg";
 import img02 from "../images/img-02.jpg";
 import img03 from "../images/img-03.jpg";
@@ -25,9 +21,6 @@ import img05 from "../images/img-05.jpg";
 import img06 from "../images/img-06.jpg";
 import img07 from "../images/img-07.jpg";
 import img08 from "../images/img-08.jpg";
-// import img09 from "../images/img-09.jpg";
-
-
 
 import ava01 from "../images/author-1.jpg";
 import ava02 from "../images/author-2.jpg";
@@ -41,15 +34,7 @@ import ava09 from "../images/author-9.jpg";
 import ava10 from "../images/author-10.jpg";
 
 
-
-
-
-
-
-
-
-export const NFT__DATA = [
-
+export const NFT_DATA = [
 
   {
     id: "01",
@@ -268,7 +253,7 @@ export const NFT__DATA = [
 
 ];
 
-export const SELLER__DATA = [
+export const SELLER_DATA = [
   {
     id: "01",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",

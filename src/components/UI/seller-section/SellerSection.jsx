@@ -2,7 +2,7 @@ import React from 'react'
 import "./seller.css";
 import { Container, Row, Col } from 'reactstrap';
 
-import { SELLER__DATA } from '../../../assets/data/data';
+import { SELLER_DATA } from '../../../assets/data/data';
 
 const SellerSection = () => {
     return (
@@ -16,7 +16,7 @@ const SellerSection = () => {
                     </Col>
 
                     {
-                        SELLER__DATA.map((item) => (
+                        SELLER_DATA.map((item) => (
                             <Col lg="2" md="3" sm="4" xs="6" key={item.id} className="mb-4">
                                 <div className='single_seller-card d-flex align-items-center gap-3'>
                                     <div className='seller_img'>

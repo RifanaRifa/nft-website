@@ -49,7 +49,6 @@
     border: none;
     outline: none;
     padding: 5px 22px;
-    /* background: transparent; */
     border: 1px solid #5142fc;
     font-size: 0.9rem;
     color: #fff;
@@ -57,11 +56,8 @@
     background: #5142fc;
     transition: 0.3s;
     column-gap: 3px !important;
-    /*  ......................*/
 
 }
-
-
 
 .bid_btn:hover {
     background: #fff;

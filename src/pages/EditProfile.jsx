@@ -4,6 +4,6 @@ const EditProfile = () => {
     return (
         <div>EditProfile</div>
     )
-}
+};
 
-export default EditProfile
+export default EditProfile;

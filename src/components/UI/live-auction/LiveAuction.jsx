@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "reactstrap";
 import { Link } from 'react-router-dom';
 import NftCard from '../NFT-Card/NftCard';
-import { NFT__DATA } from "../../../assets/data/data.js";
+import { NFT_DATA } from "../../../assets/data/data.js";
 import "./live-auction.css";
 
 const LiveAuction = () => {
@@ -18,24 +18,17 @@ const LiveAuction = () => {
                     </Col>
 
                     {
-                        NFT__DATA.slice(0, 4).map((item) => (
+                        NFT_DATA.slice(0, 4).map((item) => (
 
                             <Col lg="3" md="4" sm="6" className='mb-4'>
                                 <NftCard key={item.id} item={item} />
                             </Col>
                         ))
                     }
-
-
-
                 </Row>
-
             </Container>
-
-
-
         </section>
     )
-}
+};
 
 export default LiveAuction;

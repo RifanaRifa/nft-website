@@ -31,7 +31,6 @@ const NAV_LINKS = [
 
 
 const Header = () => {
-    // scrool top header la navigation athuku use ref use effect code
 
     const headerRef = useRef(null)
 
@@ -45,7 +44,6 @@ const Header = () => {
             }
         })
         return () => {
-            // window.removeEventListener('scroll');
         }
 
     }, []);

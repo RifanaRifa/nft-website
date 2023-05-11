@@ -44,6 +44,6 @@ const Model = ({ setShowModal }) => {
         </div>
 
     )
-}
+};
 
-export default Model
+export default Model;

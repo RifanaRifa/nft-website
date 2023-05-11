@@ -49,10 +49,7 @@
 .logo h2 {
     background: linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
     background-size: 100% 100%;
-    /* //ithu clr varum text clr evlo varanunmnu */
-
     background-clip: text;
-    /* //ithu text la varum */
     -webkit-text-stroke: 3px transparent;
     -webkit-text-fill-color: #14141f;
     margin-bottom: 0;
@@ -68,7 +65,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 0.8rem;
-    /* display: inline-block; */
+
 
 }
 

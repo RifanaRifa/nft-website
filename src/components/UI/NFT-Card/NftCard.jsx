@@ -58,6 +58,6 @@ const NftCard = (props) => {
 
 
     )
-}
+};
 
-export default NftCard
+export default NftCard;

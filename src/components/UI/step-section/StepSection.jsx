@@ -65,6 +65,6 @@ const StepSection = () => {
             </Container>
         </section>
     )
-}
+};
 
-export default StepSection
+export default StepSection;

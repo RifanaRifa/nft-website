@@ -1,19 +1,17 @@
 .contact_img {
 
-    /* margin-left: auto; */
     margin-top: 350px;
-    /* width: 630px; */
+    width: 450px;
+
 }
 
+.contactbox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
-
-/* @media only screen and (max-width:1212px) {}
-
-@media only screen and (max-width:576px) {
-    .contact_img {
-        width: 100%;
-        margin: auto;
-        margin-top: 50px;
-    }
-} */
+.contact_img img {
+    width: 100%;
+}

@@ -70,14 +70,7 @@ const Create = () => {
                                         <textarea name="" id="" rows="7" placeholder="Enter description" className='w-100'>
                                         </textarea>
                                     </div>
-
-
-
-
-
                                 </form>
-
-
                             </div>
 
                         </Col>
@@ -85,11 +78,9 @@ const Create = () => {
                 </Container>
 
             </section>
-
-
         </>
 
     )
-}
+};
 
-export default Create
+export default Create;
