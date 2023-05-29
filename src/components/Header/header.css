@@ -113,6 +113,8 @@
 
     .mobile_menu {
         display: block;
+        margin-right: 10px !important;
+
     }
 
     .btn {
