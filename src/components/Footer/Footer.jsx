@@ -126,7 +126,7 @@ const Footer = () => {
                     </Col>
                     <Col lg="12">
                         <p className='copyright'>
-                            Copyrights 2023,Developed by Rifana. All Rights Reserved </p>
+                            Copyright &copy; 2023 Neftron. All rights reserved. </p>
                     </Col>
                 </Row>
             </Container>
