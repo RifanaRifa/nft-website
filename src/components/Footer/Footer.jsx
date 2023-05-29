@@ -70,7 +70,7 @@ const Footer = () => {
                 <Row>
                     <Col lg="3" md="6" sm="6" className='mb-4'>
                         <div className='logo'>
-                            <h2 className='d-flex gap-2 align-items-center'> <span><i class="ri-fire-fill"></i></span>NFTs </h2>
+                            <h2 className='d-flex gap-2 align-items-center'> <span><i class="ri-fire-fill"></i></span>NEFTRON </h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, praesentium iure. Molestiae nesciunt, minus aliquam voluptatem
                                 exercitationem mollitia vero.</p>
                         </div>
