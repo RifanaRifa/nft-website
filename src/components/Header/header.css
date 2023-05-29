@@ -113,7 +113,11 @@
 
     .mobile_menu {
         display: block;
-        margin-right: 10px !important;
+    }
+
+    .mobile_menu span i {
+
+        margin-right: 20px !important;
 
     }
 
